@@ -1,0 +1,14 @@
+# Cấu hình dùng khi triển khai bằng Supabase CLI (npx supabase functions deploy).
+# JWT được xác thực thủ công trong từng hàm (auth.getUser) nên tắt verify_jwt ở tầng gateway.
+project_id = "fixgo"
+
+[functions.create-request]
+verify_jwt = false
+[functions.ai-assistant]
+verify_jwt = false
+[functions.stream-token]
+verify_jwt = false
+[functions.stream-webhook]
+verify_jwt = false
+[functions.outbox-worker]
+verify_jwt = false

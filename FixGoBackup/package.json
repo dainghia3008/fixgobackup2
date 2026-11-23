@@ -1,0 +1,22 @@
+{
+  "name": "fixgo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "FixGo – nền tảng cứu hộ xe máy (fixgo-user, fixgo-mechanic, fixgo-admin, Supabase)",
+  "scripts": {
+    "sync": "node scripts/sync-shared.mjs",
+    "build:sql": "node scripts/build-setup-sql.mjs",
+    "test": "vitest run tests/core",
+    "test:core": "vitest run tests/core",
+    "test:mobile": "vitest run tests/mobile",
+    "test:backend": "vitest run tests/backend",
+    "test:all": "vitest run"
+  },
+  "devDependencies": {
+    "@supabase/supabase-js": "^2.50.0",
+    "dotenv": "^16.4.0",
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0"
+  }
+}

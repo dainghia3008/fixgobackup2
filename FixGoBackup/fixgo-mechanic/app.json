@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "FixGo Thợ",
+    "slug": "fixgo-mechanic",
+    "scheme": "fixgo-mechanic",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#007F3A"
+    },
+    "android": {
+      "package": "com.fixgo.mechanic",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#007F3A"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.fixgo.mechanic",
+      "supportsTablet": false
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "30452963-52b7-4973-b2bc-89063ceafc0f"
+      }
+    },
+    "owner": "dainghia3008"
+  }
+}
